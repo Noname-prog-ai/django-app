@@ -11,4 +11,4 @@ RUN poetry install
 
 COPY mysite .
 
-CMD ["gunicon", "mysite.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicon", "mysite.wsgi:application", "--bind", "0.0.0.0:8000"] 
